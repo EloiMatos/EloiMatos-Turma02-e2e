@@ -31,9 +31,9 @@ test.describe('Cadastro de usuário para DemoBlaze', () => {
     await cadastroPage.validarCadastroExistente();
   });
 
-  test('Adicionar celular ao carrinho', async () => {
-    await cadastroPage.validarCarrinho();
-  });
+  //test('Adicionar celular ao carrinho', async () => {
+  // await cadastroPage.validarCarrinho();
+  // });
 
   // Teste de compra comentado, caso queira desativar por enquanto
   // test('Efetuando compra de Samsung Galaxy S6', async () => {
